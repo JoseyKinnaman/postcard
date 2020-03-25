@@ -1,0 +1,24 @@
+.letter {
+  display: none;
+}
+
+.container {
+  padding: 50px;
+}
+
+.card {
+  padding: 25px;
+}
+
+#address {
+  float: right;
+  text-align: right;
+}
+
+body {
+  font-family: monospace;
+}
+
+img {
+  width: 150px;
+}
