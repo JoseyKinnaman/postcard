@@ -1,10 +1,11 @@
-$(document).ready(function(){
-  $(".formOne").submit(function(event){
+$(document).ready(function() {
+  $("#formOne").submit(function(event) {
     var firstNameInput = $("input#firstName").val();
     var lastNameInput = $("input#lastName").val();
-    var animalName = $("input#animalName").val();
+    console.log(lastNameInput);
+    var animalNameInput = $("input#animalName").val();
     var streetAddressInput = $("input#streetAddress").val();
-    var cityStateZipInput =$("input#cityStateZip").val();
+    var cityStateZipInput = $("input#cityStateZip").val();
 
     $(".firstName").text(firstNameInput);
     $(".lastName").text(lastNameInput);
@@ -12,8 +13,8 @@ $(document).ready(function(){
     $(".streetAddress").text(streetAddressInput);
     $(".cityStateZip").text(cityStateZipInput);
 
-    $(".letter").show();
+    $("#letter").show();
 
-    event.preventDefault():
-  })
+    event.preventDefault();
+  });
 });

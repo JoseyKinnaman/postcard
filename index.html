@@ -20,10 +20,10 @@
           </div>
           <div class="form-group">
             <label for="lastName">Last Name</label>
-            <input input="lastName" type="text" />
+            <input id="lastName" type="text" />
           </div>
           <div class="form-group">
-            <label for="animalName">Your Animals Name</label>
+            <label for="animalName">Your Animal's Name</label>
             <input id="animalName" type="text" />
           </div>
           <div class="form-group">
@@ -39,22 +39,26 @@
           </button>
         </form>
       </div>
-      <div class="card">
-        <div class="letter">
-          <h2 id="address">
-            <img src="img/images.jpeg" alt="stamp" /><span
-              class="firstName"
-            ></span
-            ><span class="lastName"></span><span></span>
-          </h2>
-          <h3>Dear <span></span>,</h3>
+      <div id="letter">
+        <div class="card">
+          <div id="address">
+            <img src="img/images.jpeg" alt="stamp" />
+            <h4>
+              <span class="firstName"></span> <span class="lastName"></span>
+            </h4>
+            <h4><span class="streetAddress"></span></h4>
+            <h4><span class="cityStateZip"></span></h4>
+          </div>
+          <h3>Dear <span class="firstName"></span>,</h3>
           <p>
-            How are you? I hope <span></span> is doing well. ipsum dolor, sit
-            amet consectetur adipisicing elit. Aut, atque incidunt. Eos quis
-            voluptatum itaque consequatur sit facilis earum, consequuntur
-            placeat, libero accusamus natus vitae a labore dolore aliquam
-            beatae.
+            How are you? I hope <span class="animalName"></span> is doing well.
+            ipsum dolor, sit amet consectetur adipisicing elit. Aut, atque
+            incidunt. Eos quis voluptatum itaque consequatur sit facilis earum,
+            consequuntur placeat, libero accusamus natus vitae a labore dolore
+            aliquam beatae.
           </p>
+          <h3>Love Always,</h3>
+          <h4>Your Bff</h4>
         </div>
       </div>
     </div>
